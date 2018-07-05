@@ -17,3 +17,5 @@ module Jsontest
     # the framework and any gems in your application.
   end
 end
+
+config.autoload_paths += ["#{config.root}/app/serializers"]
