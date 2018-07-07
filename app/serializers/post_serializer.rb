@@ -1,5 +1,5 @@
 class PostSerializer < ActiveModel::Serializer
-  type 'posts'
+  include FastJsonapi::ObjectSerializer
+  attributes :title, :content
   has_many :comments
-  attributes :id, :title, :content
 end
