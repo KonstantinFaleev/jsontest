@@ -66,3 +66,5 @@ gem 'active_model_serializers', '~> 0.10.0'
 gem 'jsonapi-rails'
 
 gem 'fast_jsonapi'
+
+gem 'jsonapi-serializers'

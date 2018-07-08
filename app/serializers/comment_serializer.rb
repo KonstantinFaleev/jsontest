@@ -1,4 +1,7 @@
 class CommentSerializer < ActiveModel::Serializer
-  include FastJsonapi::ObjectSerializer
-  attributes :id, :body, :author
+  include JSONAPI::Serializer
+
+  attribute :id
+  attribute :author
+  attribute :body
 end
